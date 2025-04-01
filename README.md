@@ -1,2 +1,26 @@
-# CLR-Parser-Generator
-The CLR(1) Parser Generator is a tool designed to analyze and parse context-free grammars using the Canonical LR(1) parsing algorithm. It constructs LR(1) parsing tables to determine whether a given input string belongs to the specified grammar.
+# CLR(1) Parser Generator
+
+## Overview
+This project is a CLR(1) Parser Generator that constructs parsing tables and validates input strings based on a given grammar.
+
+## Features
+- Generates CLR(1) parsing tables
+- Computes FIRST and FOLLOW sets
+- Parses input strings using the generated parsing tables
+- Detects errors in input parsing
+
+## Tech Stack Used
+- **Programming Language:** Python
+- **Libraries:** Pandas, Numpy
+
+## Usage
+Run the parser generator with:
+```sh
+python clr.py
+```
+
+Provide a grammar file as input and follow the on-screen instructions to generate parsing tables and validate strings.
+
+## License
+This project is licensed under the MIT License.
+
