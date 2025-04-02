@@ -2,8 +2,6 @@ import streamlit as st
 from collections import deque, OrderedDict
 from pprint import pprint
 import re
-github_username = st.secrets["GITHUB_USERNAME"]
-github_token = st.secrets["GITHUB_TOKEN"]
 
 t_list = OrderedDict()
 nt_list = OrderedDict()
