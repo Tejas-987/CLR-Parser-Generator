@@ -22,5 +22,5 @@ python clr.py
 Provide a grammar file as input and follow the on-screen instructions to generate parsing tables and validate strings.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License..
 
